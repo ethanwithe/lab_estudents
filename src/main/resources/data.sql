@@ -1,9 +1,7 @@
-
-
 -- Inserciones
 INSERT INTO courses (name, modules, credits, fee) VALUES
-('Matemáticas Avanzadas', 10, 5.0, 450.00),
-('Programación Java', 8, 4.0, 350.00),
+('Matematicas Avanzadas', 10, 5.0, 450.00),
+('Programacion Java', 8, 4.0, 350.00),
 ('Base de Datos MySQL', 6, 3.5, 280.00),
 ('Redes y Comunicaciones', 7, 4.2, 400.00);
 
