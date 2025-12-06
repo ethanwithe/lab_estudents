@@ -1,3 +1,13 @@
+-- Limpia las tablas en orden correcto (por claves foráneas)
+DELETE FROM students_courses;
+DELETE FROM students;
+DELETE FROM courses;
+
+-- Reinicia los IDs
+ALTER TABLE students AUTO_INCREMENT = 1;
+ALTER TABLE courses AUTO_INCREMENT = 1;
+
+-- Inserciones
 INSERT INTO courses (name, modules, credits, fee) VALUES
 ('Matemáticas Avanzadas', 10, 5.0, 450.00),
 ('Programación Java', 8, 4.0, 350.00),
